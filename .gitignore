@@ -1,0 +1,12 @@
+# 构建产物
+build/
+*.apk
+*.idsig
+
+# 自签密钥（build.sh 首次运行会重新生成）
+*.keystore
+*.jks
+
+# 本地环境
+local.properties
+.DS_Store
